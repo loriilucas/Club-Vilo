@@ -1,0 +1,534 @@
+/* FUENTE */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.miNavBar{
+    background-color: rgb(9, 168, 30);
+}
+
+.miCont a{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(7, 187, 31);
+    padding: 0.3rem;
+    margin: 0.4rem;
+    font-size:xx-large;
+    color: white;
+    border-radius: 4px ;
+    
+}
+
+.escudoVilo img{
+    width: 5.5rem;
+}
+
+@media(max-width: 991px){
+    .escudoVilo{
+        display: none;
+    }
+}
+
+body{
+    background-color:rgb(192, 231, 185);
+}
+
+.miCol img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px){
+    .miCol img{
+        height: 23rem;
+    }
+}
+
+@media (max-width: 767px){
+    .imagen{
+        display: none;
+    }
+}
+
+.miRow h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 600%;
+    border: 0.15rem white solid;
+    color: white;
+}
+
+ @media (max-width: 510px){
+    h1{
+        font-size: 450%;
+    }
+} 
+
+.col-xl-4 img{
+    width: 24rem;
+    height: 21rem;
+    border-radius: 25px;
+    border: 2px black solid
+}
+
+.col-xl-4 h2{
+    border: 1px rgb(192, 231, 185) solid;
+    border-radius: 10px;
+    font-size: x-large;
+    color: rgb(192, 231, 185);
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.miCard{
+    background-color: #2d2d2d;
+    border-radius: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.miCard img{
+    width: 6.5rem;
+}
+
+.miCard i{
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    border-radius: 7px;
+}
+
+/************************************************ INSTITUCION *****************************************************************/
+
+.titulo{
+    font-family:'Oswald', sans-serif;
+    font-size: 65px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color:black;
+    background-color: rgb(13, 194, 37);
+    font-weight: 900;
+}
+
+.entrenadores{
+    border-radius: 3rem;
+}
+
+.texto{
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-weight: 800;
+}
+
+.forTitle h2{
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 1.7rem; 
+    color: black;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.instalaciones img{
+    width: 33rem;
+    border: 2px white solid;
+
+}
+
+.instT{
+    font-family:'Oswald', sans-serif;
+    font-size: 45px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color:black;
+    background-color: rgb(13, 194, 37);
+    font-weight: 900;
+}
+
+
+/*********************************************** DEPORTES **********************************************************/
+
+.indicador{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family:'Oswald', sans-serif;
+    font-size: larger ;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px;
+    left: 3px;
+}
+
+.categor{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 350px;
+    border: 2px black solid;
+}
+
+.tysport h1{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left:550px;
+    font-family:'Oswald', sans-serif;
+    font-size: 70px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(13, 194, 37);
+    color: black;
+}
+
+.tysport h2{
+    display: inline-block;
+    position: relative;
+    top: 38px;
+    left: 320px;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(13, 194, 37);
+    color: black;
+}
+
+.catm h2{
+    display: inline-block;
+    position: relative;
+    left: 510px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background-color: rgb(216, 226, 210);
+    padding: 5px;
+    font-size: xx-large;
+}
+
+.catf h2{
+    display: inline-block;
+    position: relative;
+    left: 510px;
+    bottom: 700px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background-color: rgb(216, 226, 210);
+    padding: 5px;
+    font-size: xx-large;
+}
+
+.primeraa{
+    display: inline-block;
+    position: relative;
+    left: 15px;
+}
+
+.juveniless{
+    display: inline-block;
+    position: relative;
+    left: 455px;
+    bottom: 370px;
+    height: 420px;
+}
+
+.grandee{
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    bottom: 810px;
+    height: 420px;
+}
+
+.chicaa{
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    bottom: 780px;
+}
+
+.dibNombre{
+    display: inline-block;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background-color: white;
+    padding: 5px;
+    font-size: xx-large;
+    border-radius: 10px;
+
+}
+
+.primera div{
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    right: 235px;
+}
+
+.juveniles div{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+}
+
+.infGrande div{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    bottom: 590px;
+}
+
+.infChica div{
+    display: inline-block;
+    position: relative;
+    right: 285px;
+    bottom: 590px;
+}
+
+.firstt{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    bottom: 680px;
+}
+
+.sextaa{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    bottom: 1055px;
+    width: 480px;
+}
+
+.first div{
+    bottom: 500px;
+    right: 190px;
+}
+
+.sexta div{
+    bottom: 870px;
+    left: 400px;
+}
+
+.hour{
+    position: relative;
+    display: inline-block;
+    bottom: 900px;
+    left: 400px;
+}
+
+.dias{
+    border: 2px solid black;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(13, 194, 37);
+    
+}
+
+.table{
+    position: relative;
+    display: inline-block;
+    border: solid black 2px;
+    font-family:  'Oswald', sans-serif;
+    font-size: x-large;
+    background-color:  rgb(14, 214, 41);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+th{
+    font-size: larger;
+}
+
+td{
+    border-top: black solid 2px;
+}
+
+/*********************************************** VILO STORE **********************************************************/
+
+.store{
+    color: black;
+   text-align: center;
+   font-family:fantasy;
+   font-size: 6rem;
+   text-decoration: underline;
+}
+
+.percha{
+    display: inline-block;
+    position: relative;
+    height: 7rem;
+    left: 56.5rem;
+    bottom: 7rem;
+
+}
+.ropa{
+    width: 99%;
+    position: relative;
+    bottom: 7rem;
+
+}
+.chicas{
+    left: 0.1rem;
+}
+.outoff{
+    display: inline-block;
+    position: relative;
+    left: 39rem;
+    bottom: 4rem;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background-color: rgb(216, 226, 210);
+    padding: 5px;
+    font-size: 3rem;
+}
+
+.rop{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+}
+
+.rop img{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    left: 3.5rem;
+    border: 2px black solid;
+}
+
+.rop div{    
+    width: 62%;
+    align-items: center;
+    text-align: center;
+    margin-left: 90px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background-color: white;
+    padding: 5px;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.calza{
+    position: relative;
+    top: 35px;
+}
+/*********************************************** CONTACTO **********************************************************/
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.datos{
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    top: 70px;
+}
+.datitos{
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    left: 70px;
+}
+
+.ubicacion{
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+.contactanos{
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    top: 33px;
+}
+
+.horarios{
+    display: inline-block;
+    position: relative;
+    left: 888px;
+    bottom: 148px;
+}
+
+.datitos h2{
+    text-align: center;
+    border: 1px rgb(192, 231, 185) solid;
+    border-radius: 15px;
+    font-size: xx-large;
+    color: rgb(192, 231, 185);
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    width: 130%; 
+}
+
+.ubicacion i {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 1px;
+    font-size: x-large;
+}
+
+.ubicacion p{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contactanos a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(13, 78, 216);
+    font-size: larger;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    left: 45px;
+    text-decoration: none;
+}
+
+.contactanos i{
+    font-size: x-large;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    bottom: 3px;
+}
+
+.horarios li{
+    list-style-type: none;
+}
+
+.horarios ul{
+    width: 130%;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul span{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}  
+
+.datos{
+    color: black;
+}
