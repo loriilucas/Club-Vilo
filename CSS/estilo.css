@@ -6,6 +6,20 @@
     padding: 0;
 }
 
+.arreglo{
+    display: flex;
+    justify-content: end;
+}
+
+@media(max-width:991px){
+    .arreglo{
+        display: flex;
+        justify-content: start;
+        margin-top: 0.5rem;
+    }
+}
+
+
 .miNavBar{
     background-color: rgb(9, 168, 30);
 }
