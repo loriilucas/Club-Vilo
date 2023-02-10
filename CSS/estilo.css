@@ -11,15 +11,6 @@
     justify-content: end;
 }
 
-@media(max-width:991px){
-    .arreglo{
-        display: flex;
-        justify-content: start;
-        margin-top: 0.5rem;
-    }
-}
-
-
 .miNavBar{
     background-color: rgb(9, 168, 30);
 }
@@ -39,12 +30,6 @@
     width: 5.5rem;
 }
 
-@media(max-width: 991px){
-    .escudoVilo{
-        display: none;
-    }
-}
-
 body{
     background-color:rgb(192, 231, 185);
 }
@@ -58,30 +43,12 @@ body{
     opacity: 80%;
 }
 
-@media (max-width: 991px){
-    .miCol img{
-        height: 23rem;
-    }
-}
-
-@media (max-width: 767px){
-    .imagen{
-        display: none;
-    }
-}
-
 .miRow h1{
     font-family: 'Oswald', sans-serif;
     font-size: 600%;
     border: 0.15rem white solid;
     color: white;
 }
-
- @media (max-width: 510px){
-    h1{
-        font-size: 450%;
-    }
-} 
 
 .col-xl-4 img{
     width: 24rem;
@@ -373,73 +340,48 @@ td{
 /*********************************************** VILO STORE **********************************************************/
 
 .store{
+    text-align: end;
     color: black;
-   text-align: center;
-   font-family:fantasy;
-   font-size: 6rem;
-   text-decoration: underline;
+    font-family:fantasy;
+    font-size: 6rem;
+    text-decoration: underline; 
 }
 
 .percha{
-    display: inline-block;
-    position: relative;
-    height: 7rem;
-    left: 56.5rem;
-    bottom: 7rem;
-
-}
-.ropa{
-    width: 99%;
-    position: relative;
-    bottom: 7rem;
-
-}
-.chicas{
-    left: 0.1rem;
-}
-.outoff{
-    display: inline-block;
-    position: relative;
-    left: 39rem;
-    bottom: 4rem;
-    font-family: 'Oswald', sans-serif;
-    border: 2px black solid;
-    background-color: rgb(216, 226, 210);
-    padding: 5px;
-    font-size: 3rem;
+    width: 8rem;
 }
 
-.rop{
-    width: 33%;
-    display: inline-block;
-    position: relative;
-}
-
-.rop img{
-    width: 80%;
-    height: 300px;
-    position: relative;
-    left: 3.5rem;
-    border: 2px black solid;
-}
-
-.rop div{    
-    width: 62%;
+.storeCards{
     align-items: center;
-    text-align: center;
-    margin-left: 90px;
-    font-family: 'Oswald', sans-serif;
-    border: 2px black solid;
-    background-color: white;
-    padding: 5px;
-    font-size: x-large;
-    border-radius: 10px;
+    background-color: rgb(192, 231, 185);
+    border:none
 }
 
-.calza{
-    position: relative;
-    top: 35px;
+.storeCards img{
+    width: 22rem;
+    border: black solid 2px;
 }
+
+.storeCards h3{
+    border: 2px black solid;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.myRow h2{
+    width: 12rem;
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    border: 2px black solid;
+    background:linear-gradient( rgb(178, 182, 175), white) ;
+    padding: 5px;
+    font-size: 3.5rem;
+    border-radius: 5px;
+} 
+
 /*********************************************** CONTACTO **********************************************************/
 
 iframe{
@@ -549,4 +491,42 @@ ul span{
 
 .datos{
     color: black;
+} 
+
+/* MEDIA QUERIES */
+
+@media(max-width:991px){
+    .arreglo{
+        display: flex;
+        justify-content: start;
+        margin-top: 0.5rem;
+    }
+
+    .escudoVilo{
+        display: none;
+    }
+
+    .miCol img{
+        height: 23rem;
+    }
 }
+
+@media (max-width: 767px){
+    .imagen{
+        display: none;
+    }
+
+    .percha{
+        display: none;
+    } 
+
+    .store{
+        text-align: center;
+    }
+}
+
+@media (max-width: 510px){
+    .miRow h1{
+        font-size: 500%;
+    }
+} 
