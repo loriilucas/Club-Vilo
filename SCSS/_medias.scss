@@ -1,0 +1,35 @@
+@media (max-width:991px) {
+	.arreglo {
+		display: flex;
+		justify-content: start;
+		margin-top: 0.5rem;
+	}
+	.escudoVilo {
+		display: none;
+	}
+	.miCol {
+		img {
+			height:23rem;
+		}
+	}
+}
+
+@media (max-width:510px) {
+	.miRow {
+		h1 {
+			font-size: 500%;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	.imagen {
+		display: none;
+	}
+	.percha {
+		display: none;
+	}
+	.store {
+		text-align: center;
+	}
+}
