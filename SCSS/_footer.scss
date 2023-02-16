@@ -1,0 +1,15 @@
+.miCard {
+	background-color: $footer;
+	border-radius: 0;
+	color: white;
+	font-family: $principal;
+	img {
+		width: 6.5rem;
+	}
+	i {
+		color: black;
+		font-size: x-large;
+		background-color: white;
+		border-radius: 7px;
+	}
+}

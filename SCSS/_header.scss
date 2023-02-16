@@ -1,0 +1,82 @@
+/******************************************** NAVBAR **************************************************/
+.miNavBar {
+	background-color: $verdeOscuro;
+}
+.arreglo {
+	display: flex;
+	justify-content: end;
+}
+.miCont {
+	a {
+		font-family: $principal;
+		background-color: $verdeClaro;
+		padding: 0.3rem;
+		margin: 0.4rem;
+		font-size: xx-large;
+		color: white;
+		border-radius: 4px;
+		box-shadow: $box-shadow;
+	}
+}
+.escudoVilo {
+	img {
+		width: 5.5rem;
+	}
+}
+
+/************************************************ INSTITUCION ***************************************************/
+.titulo {
+	font-family: $principal;
+	font-size: 65px;
+	border: $border-black;
+	border-radius: 15px;
+	color: black;
+	background-color: $verdeClaro;
+	font-weight: 900;
+}
+
+/************************************************ DEPORTES *******************************************************/
+.bloquePrincipal {
+	p {
+		width: 10.2rem;
+		font-family: $principal;
+		font-size: larger;
+		border: $border-black;
+		background-color: white;
+		color: black;
+	}
+	h1 {
+		width: 17rem;
+		text-align: center;
+		font-family: $principal;
+		font-size: 5rem;
+		border: $border-black;
+		padding: 5px;
+		border-radius: 15px;
+		background: linear-gradient(to right,#093028, #0b740b);
+		color: white;
+		box-shadow: $box-shadow;
+	}
+	h2 {
+		@extend h1;
+		width: 23rem;
+		font-size: 2.5rem;
+	}
+}
+
+/*********************************************** VILO STORE **********************************************************/
+.store {
+	text-align: end;
+	color: black;
+	font-family: $viloStore;
+	font-size: 6rem;
+	text-decoration: underline;
+}
+.percha {
+	width: 8rem;
+}
+
+/*********************************************** CONTACTO **********************************************************/
+.h1None{
+	display: none;
+}

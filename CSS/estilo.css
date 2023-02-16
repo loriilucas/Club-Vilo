@@ -1,40 +1,45 @@
+/* PARCIALS */ /* COLORES */
+/* FONT-FAMILY */
+/* BACKGROUND-COLOR */
+/* BOX-SHADOW */
+/* BORDER */
+/* H2 y H3 IGUALES */
 @import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
-@media (max-width: 510px) {
-  .miRow h1 {
-    font-size: 500%;
-  }
-}
-@media (max-width: 991px) {
-  .arreglo {
-    display: flex;
-    justify-content: start;
-    margin-top: 0.5rem;
-  }
-  .escudoVilo {
-    display: none;
-  }
-  .miCol img {
-    height: 23rem;
-  }
-}
-@media (max-width: 767px) {
-  .imagen {
-    display: none;
-  }
-  .percha {
-    display: none;
-  }
-  .store {
-    text-align: center;
-  }
-}
-/* FUENTE */
-* {
-  margin: 0;
-  padding: 0;
+.claseCopia, .storeCards h3, .gridsCategorias h3, .forTitle h2 {
+  border: 2px black solid;
+  border-radius: 8px;
+  font-size: 1.7rem;
+  color: black;
+  background-color: white;
+  font-family: "Oswald", sans-serif;
 }
 
-/**************************************************** INICIO *******************************************************************/
+/* BLACK AND BODY */
+.blackAndBody, .rowInfo h2, .col-xl-4 h2 {
+  border: 2px rgb(192, 231, 185) solid;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(192, 231, 185);
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+/* GREY AND WHITE */
+.greyAndWhite, .myRow h2, .gridsCategorias h2 {
+  width: 21rem;
+  text-align: center;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  border: 2px black solid;
+  background: linear-gradient(rgb(178, 182, 175), white);
+  padding: 5px;
+  font-size: 2.5rem;
+  border-radius: 5px;
+}
+
+/******************************************** NAVBAR **************************************************/
 .miNavBar {
   background-color: rgb(9, 168, 30);
 }
@@ -52,17 +57,69 @@
   font-size: xx-large;
   color: white;
   border-radius: 4px;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
 
 .escudoVilo img {
   width: 5.5rem;
 }
 
-body {
-  background-color: rgb(192, 231, 185);
+/************************************************ INSTITUCION ***************************************************/
+.titulo, .instT {
+  font-family: "Oswald", sans-serif;
+  font-size: 65px;
+  border: 2px black solid;
+  border-radius: 15px;
+  color: black;
+  background-color: rgb(7, 187, 31);
+  font-weight: 900;
 }
 
+/************************************************ DEPORTES *******************************************************/
+.bloquePrincipal p {
+  width: 10.2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  border: 2px black solid;
+  background-color: white;
+  color: black;
+}
+.bloquePrincipal h1, .bloquePrincipal h2 {
+  width: 17rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  border: 2px black solid;
+  padding: 5px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #093028, #0b740b);
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+.bloquePrincipal h2 {
+  width: 23rem;
+  font-size: 2.5rem;
+}
+
+/*********************************************** VILO STORE **********************************************************/
+.store {
+  text-align: end;
+  color: black;
+  font-family: fantasy;
+  font-size: 6rem;
+  text-decoration: underline;
+}
+
+.percha {
+  width: 8rem;
+}
+
+/*********************************************** CONTACTO **********************************************************/
+.h1None {
+  display: none;
+}
+
+/****************************************** INICIO ********************************************************/
 .miCol img {
   height: 100%;
   width: 100%;
@@ -72,7 +129,7 @@ body {
   opacity: 80%;
 }
 
-.miRow h1 {
+.miRow h1, .miRow .bloquePrincipal h2, .bloquePrincipal .miRow h2 {
   font-family: "Oswald", sans-serif;
   font-size: 600%;
   border: 0.15rem white solid;
@@ -93,62 +150,16 @@ body {
   border: 2px black solid;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
-.col-xl-4 h2 {
-  border: 2px rgb(192, 231, 185) solid;
-  border-radius: 10px;
-  font-size: x-large;
-  color: rgb(192, 231, 185);
-  background-color: black;
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.22);
-}
-
-.miCard {
-  background-color: #2d2d2d;
-  border-radius: 0;
-  color: white;
-  font-family: "Oswald", sans-serif;
-}
-.miCard img {
-  width: 6.5rem;
-}
-.miCard i {
-  color: black;
-  font-size: x-large;
-  background-color: white;
-  border-radius: 7px;
-}
-
-/************************************************ INSTITUCION *****************************************************************/
-.titulo {
-  font-family: "Oswald", sans-serif;
-  font-size: 65px;
-  border: 2px black solid;
-  border-radius: 15px;
-  color: black;
-  background-color: rgb(13, 194, 37);
-  font-weight: 900;
-}
-
+/*************************************************INSTITUCION ***************************************************/
 .entrenadores {
   border-radius: 3rem;
 }
 
 .texto {
-  font-size: larger;
+  font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: justify;
-  font-weight: 800;
-}
-
-.forTitle h2 {
-  border: 2px black solid;
-  border-radius: 10px;
-  font-size: 1.7rem;
-  color: black;
-  background-color: white;
-  font-family: "Oswald", sans-serif;
+  font-weight: bold;
 }
 
 .instalaciones img {
@@ -158,49 +169,10 @@ body {
 }
 
 .instT {
-  font-family: "Oswald", sans-serif;
   font-size: 45px;
-  border: 2px black solid;
-  border-radius: 15px;
-  color: black;
-  background-color: rgb(13, 194, 37);
-  font-weight: 900;
 }
 
-/*********************************************** DEPORTES *****************************************************************/
-.bloquePrincipal p {
-  width: 10.2rem;
-  font-family: "Oswald", sans-serif;
-  font-size: larger;
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-}
-.bloquePrincipal h1 {
-  width: 17rem;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-size: 5rem;
-  border: 2px black solid;
-  padding: 5px;
-  border-radius: 15px;
-  background: linear-gradient(to right, #093028, #0b740b);
-  color: white;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
-}
-.bloquePrincipal h2 {
-  width: 23rem;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-size: 2.5rem;
-  border: 2px black solid;
-  padding: 5px;
-  border-radius: 15px;
-  background: linear-gradient(to right, #093028, #0b740b);
-  color: white;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
-}
-
+/************************************************ DEPORTES ********************************************************/
 .categCards {
   align-items: center;
   background-color: rgb(192, 231, 185);
@@ -209,7 +181,7 @@ body {
 .categCards img {
   width: 27rem;
   height: 25rem;
-  border: white solid 2px;
+  border: 2px white solid;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
 
@@ -218,68 +190,34 @@ body {
   width: 30rem;
 }
 
-.gridsCategorias h2 {
-  width: 21rem;
-  text-align: center;
-  color: black;
-  font-family: "Oswald", sans-serif;
-  border: 2px black solid;
-  background: linear-gradient(rgb(178, 182, 175), white);
-  padding: 5px;
-  font-size: 2.5rem;
-  border-radius: 5px;
-}
-.gridsCategorias h3 {
-  border: 2px black solid;
-  border-radius: 6px;
-  font-size: 1.7rem;
-  color: black;
-  background-color: white;
-  font-family: "Oswald", sans-serif;
-}
-
 .tituloTabla h3 {
   font-family: "Oswald", sans-serif;
   color: white;
   background: linear-gradient(to right, #093028, #0b740b);
-  border: solid black 2px;
+  border: 2px black solid;
   text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
   font-size: 2.2rem;
   border-radius: 5px;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.22);
 }
 
 .miTable {
   width: 60rem;
   background: linear-gradient(to right, #36c729, #dbfabf);
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.22);
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
-.miTable th {
+.miTable th, .miTable td {
   color: black;
   font-family: "Oswald", sans-serif;
   font-size: 1.9rem;
 }
 .miTable td {
-  color: black;
-  font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
 }
 
 /*********************************************** VILO STORE **********************************************************/
-.store {
-  text-align: end;
-  color: black;
-  font-family: fantasy;
-  font-size: 6rem;
-  text-decoration: underline;
-}
-
-.percha {
-  width: 8rem;
-}
-
 .storeCards {
   align-items: center;
   background-color: rgb(192, 231, 185);
@@ -287,27 +225,12 @@ body {
 }
 .storeCards img {
   width: 22rem;
-  border: black solid 2px;
+  border: 2px black solid;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
-.storeCards h3 {
-  border: 2px black solid;
-  border-radius: 8px;
-  color: black;
-  background-color: white;
-  font-family: "Oswald", sans-serif;
-}
-
 .myRow h2 {
   width: 12rem;
-  text-align: center;
-  color: black;
-  font-family: "Oswald", sans-serif;
-  border: 2px black solid;
-  background: linear-gradient(rgb(178, 182, 175), white);
-  padding: 5px;
-  font-size: 3.5rem;
-  border-radius: 5px;
+  font-size: 3rem;
 }
 
 /*********************************************** CONTACTO **********************************************************/
@@ -322,15 +245,8 @@ iframe {
 }
 
 .rowInfo h2 {
-  text-align: center;
-  border: 1px rgb(192, 231, 185) solid;
-  border-radius: 15px;
   font-size: xx-large;
-  color: rgb(192, 231, 185);
-  background-color: black;
-  font-family: "Oswald", sans-serif;
   font-weight: bold;
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.22);
 }
 .rowInfo i {
   font-size: 1.7rem;
@@ -362,6 +278,65 @@ iframe {
 .listaHorarios {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.miCard {
+  background-color: #2d2d2d;
+  border-radius: 0;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.miCard img {
+  width: 6.5rem;
+}
+.miCard i {
+  color: black;
+  font-size: x-large;
+  background-color: white;
+  border-radius: 7px;
+}
+
+/* FUENTE */
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(192, 231, 185);
+}
+
+/*MEDIA QUIERIES*/
+@media (max-width: 991px) {
+  .arreglo {
+    display: flex;
+    justify-content: start;
+    margin-top: 0.5rem;
+  }
+  .escudoVilo {
+    display: none;
+  }
+  .miCol img {
+    height: 23rem;
+  }
+}
+@media (max-width: 510px) {
+  .miRow h1, .miRow .bloquePrincipal h2, .bloquePrincipal .miRow h2 {
+    font-size: 500%;
+  }
+}
+@media (max-width: 767px) {
+  .imagen {
+    display: none;
+  }
+  .percha {
+    display: none;
+  }
+  .store {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
