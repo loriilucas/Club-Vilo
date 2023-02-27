@@ -309,7 +309,7 @@ body {
   background-color: rgb(192, 231, 185);
 }
 
-/*MEDIA QUIERIES*/
+/* MEDIA QUIERIES */
 @media (max-width: 991px) {
   .arreglo {
     display: flex;
